@@ -35,7 +35,7 @@ while True:
             y2 = min(h_img, bbox.origin_y + bbox.height)
             roi = frame[y1:y2, x1:x2]
             if roi.size > 0:
-                k_size = int(roi.shape[1] * 0.15)
+                k_size = int(roi.shape[1] * 0.45)
                 if k_size % 2 == 0: k_size+=1
                 k_size = max(1, k_size)
                 frame[y1:y2, x1:x2] = cv2.GaussianBlur(roi, (k_size,k_size), 0)
