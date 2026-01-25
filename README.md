@@ -48,6 +48,15 @@ The pipeline operates in the following stages:
 
 Press **`q`** to quit the application.
 
+## 📄 License & Acknowledgments
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**Acknowledgments:**
+* The face detection model (`blaze_face_short_range.tflite`) is provided by **Google MediaPipe** and is subject to the **Apache License 2.0**.
+
+---
+
 ## 👤 Author
 
 **Bernardo Sabino**
@@ -55,13 +64,7 @@ Press **`q`** to quit the application.
 * **Education:** Control and Automation Engineering Student at UFMG | Industrial Automation Technician (SENAI-MG)
 * **Interests:** Robotics, Computer Vision, ROS/ROS 2, and Embedded Systems.
 * **Connect with me:** [LinkedIn](https://www.linkedin.com/in/bernardosab/) | [GitHub](https://github.com/bernardo-sabino)
-
+  
 ---
+
 *Developed as part of my studies in Computer Vision algorithms.*
-
-## 📄 License & Acknowledgments
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-**Acknowledgments:**
-* The face detection model (`blaze_face_short_range.tflite`) is provided by **Google MediaPipe** and is subject to the **Apache License 2.0**.
